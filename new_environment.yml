@@ -1,0 +1,19 @@
+name: argovis_grid
+
+dependencies:
+    - python=3.9
+    - requests
+    - cartopy
+    - pandas
+    - pip
+    - scipy
+    - numpy
+    - xarray
+    - ipywidgets
+    - pip:
+          - svgpath2mpl
+
+channels:
+    - conda-forge
+    - defaults
+    - conda-forge/label/broken
