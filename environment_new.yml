@@ -11,3 +11,8 @@ dependencies:
   - xarray
   - pip:
     - svgpath2mpl
+
+channels:
+    - conda-forge
+    - defaults
+    - conda-forge/label/broken
