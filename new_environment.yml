@@ -2,6 +2,10 @@ name: argovis_demos
 
 dependencies:
   - python=3.9
+  - jupyter
+  - jupyterlab
+  - ipython
+  - ipykernel
   - requests
   - cartopy
   - pandas
